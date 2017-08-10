@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlackWhite"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/kanji_notification_word"
+        android:layout_width="@dimen/text_dimension_70"
+        android:layout_height="@dimen/text_dimension_70"
+        android:textSize="@dimen/text_size_40"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/item_border"
+        android:typeface="monospace"
+        android:includeFontPadding="false">
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/kanji_notification_info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_dimension_70"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/kanji_notification_word"
+        android:paddingLeft="@dimen/padding_5"
+        android:gravity="center_vertical"
+        android:background="@drawable/item_border">
+        <TextView
+            android:id="@+id/kanji_notification_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:maxLines="1"
+            android:textSize="@dimen/text_size_10"
+            android:singleLine="true"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/kanji_notification_kun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:maxLines="1"
+            android:textSize="@dimen/text_size_10"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/kanji_notification_mean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:maxLines="1"
+            android:textSize="@dimen/text_size_10"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+    </LinearLayout>
+</RelativeLayout>

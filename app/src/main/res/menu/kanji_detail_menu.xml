@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".KanjiDetailActivity">
+      <item android:id="@+id/action_practice"
+          android:title="Practice"
+          android:icon="@mipmap/ic_brush_white_36dp"
+          android:orderInCategory="1"
+          app:showAsAction="always"
+          android:visible="false"/>
+
+      <item android:id="@+id/action_mode"
+            android:title="Slide Show"
+            android:icon="@mipmap/ic_slideshow_white_36dp"
+            android:orderInCategory="2"
+            app:showAsAction="always"
+            android:visible="false"/>
+
+      <item android:id="@+id/action_share"
+            android:title="@string/action_share_text"
+            android:icon="@mipmap/ic_share_white_36dp"
+            android:orderInCategory="3"
+            app:showAsAction="always"
+            android:visible="false"/>
+
+      <item android:id="@+id/action_bookmark"
+            android:title="@string/action_bookmark_text"
+            android:icon="@mipmap/ic_grade_white_36dp"
+            android:orderInCategory="4"
+            app:showAsAction="always"
+            android:visible="false"/>
+
+      <item android:id="@+id/action_setting"
+            android:title="@string/action_settings"
+            android:icon="@mipmap/ic_more_white_36dp"
+            android:orderInCategory="5"
+            app:showAsAction="always"
+            android:visible="false"/>
+</menu>

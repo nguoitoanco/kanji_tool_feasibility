@@ -1,0 +1,25 @@
+﻿1. font chu vs nen ko hop.
+2. size ko hop, bo cuc ko deu(Detail).
+3. tieng anh lan tieng viet.
+4. thiếu nghĩa hán việt.
+5. kho su dung, phức tạp, rối, khong biet chuc nang mui ten de lam j.
+6. khong co tieng viet ah?
+7. them kanji detect.
+8. load detail hoi cham.
+9. download tu google play qua cham.=> maybe font file.
+10. nhan vao star icon 2 lan -> add bookmark, remove bookmark.
+11. Khong the su dung chuc nang share.
+12. app ko kich thich nguoi dung, ko smoth, ko dep
+....
+9. nen dat, chữ trắng ko nổi bật, khó nhìn
+10. bố cục không cân đối, chữ nhỏ, màn hình lớn hơn thì chữ cũng phải lớn hơn.
+11. phần viết chữ mẫu ko nên cho setup, nên fix
+12. khi load màn hình practice, cho chữ chạy luôn.
+13. ko cần setup màu viết
+14. ko cần nút back next.
+15. trau truốt chức năng chính trước.
+
+16. nen vang xau, size of mean nhỏ.
+17. nen disable 3 nut cuoi khi khoi tao man hinh practice.
+18. tao mh tap viet co mau
+19. cham diem, danh gia viec tap viet

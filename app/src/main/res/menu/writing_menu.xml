@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".WritingActivity">
+
+      <item android:id="@+id/time_option"
+            android:title="Time Option"
+            android:icon="@mipmap/ic_keyboard_arrow_down_white_36dp"
+            app:showAsAction="ifRoom"/>
+</menu>

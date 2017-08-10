@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/kanji_main_test_display_item_list_action"
+        android:title="List Of Questions"
+        android:icon="@mipmap/ic_view_list_white_36dp"
+        android:orderInCategory="0" app:showAsAction="always" />
+</menu>

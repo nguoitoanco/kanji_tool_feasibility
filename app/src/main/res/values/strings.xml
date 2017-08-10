@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Kanji NVK</string>
+    <string name="app_version">Version 1.1</string>
+    <string name="app_share_title">Kanji NVK version 1.0.0</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_close_text">Close</string>
+    <string name="action_share_text">Share</string>
+    <string name="action_history_text">History</string>
+    <string name="action_bookmark_text">Bookmark</string>
+    <string name="action_change_language_text">Change Language</string>
+
+    <!-- Tab title-->
+    <string name="home_tab_title">Home</string>
+    <string name="bookmark_tab_title">Bookmark</string>
+    <string name="detect_tab_title">Detect</string>
+    <string name="setting_tab_title">Setting</string>
+    <string name="about_tab_title">About App</string>
+    <string name="more_tab_title">More</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_keyword_input">Search By Keyword</string>
+    <string name="btn_search_text">Search</string>
+    <string name="jlpt_n5_text">JLPT N5</string>
+    <string name="jlpt_n4_text">JLPT N4</string>
+    <string name="jlpt_n3_text">JLPT N3</string>
+    <string name="jlpt_n2_text">JLPT N2</string>
+    <string name="jlpt_n1_text">JLPT N1</string>
+    <string name="jlpt_n5_tab_text">N5</string>
+    <string name="jlpt_n4_tab_text">N4</string>
+    <string name="jlpt_n3_tab_text">N3</string>
+    <string name="jlpt_n2_tab_text">N2</string>
+    <string name="jlpt_n1_tab_text">N1</string>
+    <string name="kanji_basic_set_text">Other</string>
+    <string name="kanji_game_text">Game</string>
+    <string name="kanji_image_text">Kanji Image</string>
+    <string name="kanji_test_text">JLPT Test</string>
+    <string name="on_title_text">On:</string>
+    <string name="kun_title_text">Kun: </string>
+    <string name="mean_title_text">Mean:</string>
+    <string name="compound_title_text">More:</string>
+    <string name="story_title_text">Story:</string>
+    <string name="title_activity_kanji_detail">KanjiDetailActivity</string>
+    <string name="filter_title_text">Filter</string>
+    <string name="block_type_view_text">Blocks</string>
+    <string name="detail_type_view_text">Details</string>
+    <string name="grid_type_view_text">Grid</string>
+    <string name="kanji_search_result_header_text">Sum: %1$s words</string>
+    <string name="english_selection_text">English</string>
+    <string name="vietnamese_selection_text">Vietnamese</string>
+
+    <string name="kanji_slide_show_text1">Slideshow(1s)</string>
+    <string name="kanji_slide_show_text2">Slideshow(2s)</string>
+    <string name="kanji_slide_show_text3">Slideshow(3s)</string>
+    <string name="kanji_slide_show_text4">Slideshow(4s)</string>
+    <string name="kanji_slide_show_text5">Slideshow(5s)</string>
+
+    <string name="kanji_writting_show_text">Writing</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="loading_status_text">Preparing data for first time…</string>
+    <string name="clear_text">Clear</string>
+    <string name="color_picker_text">Color</string>
+    <string name="one_second">1s</string>
+    <string name="two_second">2s</string>
+    <string name="three_second">3s</string>
+    <string name="five_second">5s</string>
+    <string name="kanji_writing_paractice_title">Writing Practice</string>
+    <string name="ch_star">*</string>
+    <string name="ch_br"><![CDATA[<br/>]]></string>
+    <string name="not_allow_add_more_bookmark_messge">Not allowed to add into the bookmark greater than 30 items. Please remove some items in bookmark.</string>
+    <string name="default_setting_action_text">Default</string>
+    <string name="random_setting_action_text">Random</string>
+    <string name="delete_all_confirm_message">Are you sure to delete all the items?</string>
+    <string name="ok_button_confirm">OK</string>
+    <string name="cancel_button_confirm">Cancel</string>
+    <string name="confirm_dialog_title">Confirm Dialog</string>
+    <string name="basic_set_name_title">Name:</string>
+    <string name="basic_set_des_title">Description:</string>
+    <string name="jlpt_vocabulary_text">JLPT Vocabulary</string>
+    <string name="undo_action_text">Undo</string>
+    <string name="redo_action_text">Redo</string>
+    <string name="jlpt_test_block_title">JLPT Block Test-</string>
+
+    <string name="kanji_test_n5_title">JLPT N5 Test</string>
+    <string name="kanji_test_n4_title">JLPT N4 Test</string>
+    <string name="kanji_test_n3_title">JLPT N3 Test</string>
+    <string name="kanji_test_n2_title">JLPT N2 Test</string>
+    <string name="kanji_test_n1_title">JLPT N1 Test</string>
+    <string name="default_test_action_context_menu_title">Start Default Test</string>
+    <string name="random_test_action_context_menu_title">Start Random Test</string>
+    <string name="test_amount">Test Amount:</string>
+    <string name="kanji_main_test_commit_action">Commit</string>
+    <string name="kanji_test_result_question">Questions:</string>
+    <string name="kanji_test_corrected_answer">Corrected Answer:</string>
+
+    <string name="facebook_app_id">1715521648730461</string>
+    <string name="twitter_app_consumer_key">kiEY8aTEt5QVo67S60PB1eYli</string>
+    <string name="twitter_app_consumer_secret">wqWZwf3xlnL1bPsMC4xVLJG9VMzrKn2Rp2F8YQyTyTfRGK5NDr</string>
+
+    <string name="top_banner_ad_unit_id">ca-app-pub-9948683300202690/3957102768</string>
+    <string name="detail_top_banner_ad_unit_id">ca-app-pub-9948683300202690/1921966361</string>
+    <string name="admob_app_id">8585778764</string>
+
+    <string name="app_about_content">
+        "This app's developed to learn Japanese Kanji(JLPT N1 -> N5) easily and effectively. Including 2 main parts:\n
+    1. Approximately 1500 Japanese Kanji words from JLPT N5, N4, N3, N2, N1.
+        -> Display On, Kun, Mean and Compounds of each kanji.
+        -> Help you how to write and practice each kanji at the same screen.
+        -> You can filter and find some kanjis by On, Kun, Mean.
+        -> You add your favourite kanjis into bookmark and learn them whenever you want to.
+    2. So many blocks of test for JLPT N5, N4, N3, N2, N1.
+        -> With 10 questions in each testing block.
+        -> You can create a custom testing block if you want(with maximum = 50 questions).
+        -> After committing your testing, the Test Result Screen will be displayed.You can try your testing again or review detail about corrected choices and wrong choices."
+    </string>
+
+    <string name="app_about_information">
+        "Name: Japanese Kanji NVK.
+Version: 1.1.
+OS Support: Android 4.1 (Jelly Bean) or later version."
+    </string>
+    <string name="menu_language_setting">Language</string>
+</resources>

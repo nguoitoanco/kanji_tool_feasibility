@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_10"
+    android:background="@color/colorWhiteTransparent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/amount_of_question_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kanji_test_result_question"
+        android:textSize="@dimen/text_size_18"
+        android:textColor="@color/colorSuperBlack"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/amount_correct_answer_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kanji_test_corrected_answer"
+        android:textSize="@dimen/text_size_18"
+        android:textColor="@color/colorSuperBlack"
+        android:gravity="center_horizontal"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:padding="@dimen/padding_10"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/try_again_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Try Again"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:layout_marginRight="@dimen/margin_10"
+            android:background="@color/colorPrimary"
+            android:includeFontPadding="false"/>
+        <Button
+            android:id="@+id/preview_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preview"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/try_again_button"
+            android:background="@color/colorAndroidGreen"
+            android:includeFontPadding="false"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBabyBlueEyes"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="muscular.man.tools.kanjinvk.activity.KanjiTestMainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/kanji_main_test_appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/kanji_main_test_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextColor="@color/colorWhite"
+            android:title="@string/kanji_test_text"
+            app:theme="@style/BlackTheme.CommonToolBarBackground"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/kanji_test_main_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    </android.support.v7.widget.RecyclerView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:paddingBottom="?attr/actionBarSize">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/option_item_recycler_view"
+            android:layout_width="@dimen/text_dimension_30"
+            android:layout_height="match_parent"
+            android:background="@color/colorTransparent">
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="?actionBarSize">
+        <Button
+            android:id="@+id/kanji_test_main_commit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize"
+            android:text="Commit"
+            android:textSize="@dimen/text_size_25"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingLeft="@dimen/padding_10"
+            android:paddingRight="@dimen/padding_10"
+            android:background="@color/colorAccent"
+            android:visibility="gone"/>
+    </RelativeLayout>
+    <include layout="@layout/loading_process"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_centerInParent="true"/>
+
+</android.support.design.widget.CoordinatorLayout>

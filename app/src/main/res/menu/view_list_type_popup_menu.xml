@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/block_type_view_action"
+            android:title="@string/block_type_view_text"
+            android:orderInCategory="1"/>
+
+        <item
+            android:id="@+id/detail_type_view_action"
+            android:title="@string/detail_type_view_text"
+            android:orderInCategory="2"/>
+
+        <item
+            android:id="@+id/grid_type_view_action"
+            android:title="@string/grid_type_view_text"
+            android:orderInCategory="3"/>
+    </group>
+</menu>

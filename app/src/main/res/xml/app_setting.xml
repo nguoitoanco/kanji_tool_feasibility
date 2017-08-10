@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="setting 1">
+        <Preference
+            android:key="acquisition_number"
+            android:title="setting 1"
+            android:summary="10件"/>
+        <SwitchPreferenceCompat
+            android:key="display_only_shop_mobile_coupon"
+            android:title="abc"/>
+        <SwitchPreferenceCompat
+            android:key="display_only_shops_currently_vacant"
+            android:title="abc"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="setting 1">
+        <Preference
+            android:key="bookmark_maximum_storage_number"
+            android:title="setting 1"/>
+        <Preference
+            android:key="remove_all_bookmark"
+            android:title="setting 1"/>
+    </PreferenceCategory>
+</PreferenceScreen>

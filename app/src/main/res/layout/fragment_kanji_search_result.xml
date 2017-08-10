@@ -1,0 +1,59 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kanji_search_result_container"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="muscular.man.tools.kanjinvk.fragment.KanjiSearchResultFragment"
+    android:layout_gravity="center"
+    android:background="@color/colorBabyBlueEyes">
+    <RelativeLayout
+        android:id="@+id/search_result_header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding ="@dimen/margin_5"
+        android:gravity="center_vertical"
+        android:background="@color/colorBabyBlueEyes">
+
+        <ImageView
+            android:id="@+id/search_result_display_type_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/ic_keyboard_arrow_down_white_36dp"
+            android:visibility="gone"
+            android:layout_marginRight="@dimen/margin_5"
+            android:background="@drawable/kanji_item_background" />
+        <TextView
+            android:id="@+id/search_result_header_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kanji_search_result_header_text"
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:textSize="@dimen/text_size_15"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/change_language_view"
+            android:layout_width="@dimen/text_dimension_25"
+            android:layout_height="@dimen/text_dimension_25"
+            android:layout_margin="0dp"
+            android:textSize="@dimen/text_size_12"
+            style="@style/BlackTheme.BrushTool"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+        <include layout="@layout/loading_process"/>
+    </RelativeLayout>
+
+    <muscular.man.tools.kanjinvk.view.ContextMenuRecyclerView
+        android:id="@+id/kanji_list_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_result_header_layout"
+        android:padding="@dimen/margin_2">
+    </muscular.man.tools.kanjinvk.view.ContextMenuRecyclerView>
+
+</RelativeLayout>

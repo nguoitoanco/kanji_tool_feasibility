@@ -1,0 +1,166 @@
+--------------------------------------
+	SOURCE CODE
+--------------------------------------
+
+1. data kanji error: compound of kanji have many "###", data vietnamese have many space, difficult to read.
+=> OK
+
+2. data svg kanji error: kanji word and kanji svg uncoressponding. svg error stop writting screen with data N2
+=> Started, but not finished yet => OK.
+ 
+3. on detail screen. each page show 1 icon change language. => should show 1 icon change lanuage for all the pages.
+=> OK
+
+6. on Search result screen, Detail type. in case mean is too long, text cover button next detail icon.
+=> set singl line and ecllipsize.
+=> OK: not use image view block detail
+
+7. On Search Result screen, filter function: not processing turn off keyboard when click an item to forward other screen
+=> OK
+
+8. On List screen, should hide/show toolbar, footer tab when scroll up and down.
+=> OK.
+
+11. Fixed:Keep current posistion of recycel view (KanjiSearchResult Fragment) when back from KanjiDetailActivity.
+=> OK. in case only Detail type => reset apdapter when resume.
+
+12. KanjiSearchResult-> Edit: fileter is Gone as default, only display when load data successfully.
+=> OK.
+
+17. Fix data of N2 and N3 in excel: *-> <br/>	*
+=> OK. no need to fix.
+
+18. On search result screen, Detail type => when click on change language => re-draw not smooth.
+=> OK. set height as constant of dp type in dimens.xml
+
+
+20. data of N2: file svg n20130 is error
+=> OK.
+
+21. Add About screen app
+=> OK.
+22. In case view detail or grid -> detail screen -> writting: has error, maybe full memory error.
+=> OK.
+
+---priority---
+42. Review and Re-design all Ads, search how to improve Ads revenue.
+=> OK
+
+40. re-design icon
+=> OK. Improve in older version.
+
+41. move all keys to Constant class.
+=> OK. Optimize for older version.
+
+38. save all info setting to sharepreference.
+=> OK.
+
+39. Not implement sync changing language on Bookmark screen.
+=> OK.
+
+40. Re-update flow of preparing data in the first time: If not yet completed inserting data into DB => Load data from each file txt.
+=> Cancel.
+
+41. Add horizontal scroll on footer toolbar on Writing Screen.
+=> OK.
+
+43. On s6, notification backgournd is white => can not see kanji info => change color content On, Kun, Mean on notification
+=> OK. Set back ground is Black.
+
+44. on S6, not have action when tapping on button share.
+=> OK. willing update older version.
+
+45. Edit list of blocks on Search Result Screen.
+=> OK.
+
+47. Test route:bookmark -> detail -> tapping notification -> tapping bookmark -> close detail -> refresh bookmark list
+=> OK.
+48. need to test when open a screen -> push notification (test all screen).
+=> OK.
+
+
+5. on practice screen: should add display list of kanjis option to user no need to go back previous screen.
+=> OK.Willing update for next version.
+
+10. Re-design font size, color for suit, backgournd for dialog, customview
+=> OK. improve older version.
+9. Re-create all icon for app. Add more icon for some layout
+=> OK. improve older version.
+14. On Detail Screen
+	Should make limit line of compounds => add show more detail for compounds
+	=> OK. using recycler view
+15. Add and complete notification function
+	=> OK.
+19. On KanjiSearchResult screen: Add function: choose N5,N4,...
+	=> OK. update for next version.
+23. Sometimes, filter item not display.
+    => OK. not fixed	
+24. Data of kanji of N3,N4 in detail screen not corrected. not break line between compounds.
+    => OK.
+25. Save all information setting and selecting into reference.
+    => OK.
+26. On Search Result screen: Detail and Grid, should hide header while filtering, re visibile when finished filtering
+    => OK. no need.
+27. Re-check all data display(on,kun,mean,compounds,...) before releasing.
+    => OK.
+29. Need to check all source: remove source not use, optimized code,...
+    => OK.
+30. improve performance for loading list: using load more.
+    => OK. optimize next version.
+31. "Preparing data for first time" takes a lot of time.
+    => OK.
+32. error show/hide toolbar when switch between form bookmark screen to other screens.
+    => OK.
+33. Notification for app
+ => OK.
+  33.1. need start flow when push notification:
+    flow1: when app is not actived: slpash -> main -> detail activity
+	flow2: when app is open: => move to detail activity and display data extra of notification.
+	flow3: when app is actived in background: move to detail activity and display data extra of notification.
+ => OK.current flow is good. if has change => udate for next version.
+35. re-design home
+=> OK.
+
+37. add Adsplash for first time installing app.
+=> OK. no need.
+
+4. on practice screen: at some devices, kanji stroke order is not center of border.
+=> OK. fix next version.
+13. security:
+	13.1. data file txt
+	13.2. trasition .class to java source
+=> OK. no need
+	
+16. Add and complete social network sharing.	
+=> Only sharing on face. willing add sharing twitter for next version.
+46. re test all screen -> when screen is so small, should scroll for displaying all items.
+=> ok
+34. sometime, toolbar item on KanjidetailActivity not show.
+=> OK. fix next version.
+36. add share for twitter, add view option, add share for test result.
+ => OK. no need.
+42. Not yet add stroke kanji font into project.
+=> OK.
+39. complete share face, twitter.
+=> OK.
+
+--------------DATA PROBLEM-----------
+< font
+</ font> 
+< / font> 
+</ font > 
+
+" #007FFF"
+"#007FFF "
+" # 007FFF "
+" # 007FFF"
+
+<br />
+----------------------------------------
+	--------------------------------------
+	TEST
+--------------------------------------
+1. add Confirm point about Gui test and bussiness test,...
+2. Test layout, cover layout, display
+3. crash?
+4. memory

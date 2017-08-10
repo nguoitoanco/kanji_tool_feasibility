@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="preferenceTheme">@style/BlackTheme.CustomPreferenceTheme</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+    </style>
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@color/colorAndroidGreen</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="style" parent="android:Theme.Holo.Light">
+        <!--<item name="android:popupBackground">@color/colorBlack</item>-->
+    </style>
+
+    <style name="BlackTheme">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="BlackTheme.CategoriesStyle">
+        <item name="android:textColor">@color/colorCerulean</item>
+        <item name="android:textSize">@dimen/text_size_25</item>
+        <item name="android:layout_marginLeft">@dimen/margin_10</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="BlackTheme.BrushTool">
+        <item name="android:layout_margin">@dimen/margin_5</item>
+        <item name="android:background">@drawable/circle_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="BlackTheme.CustomPreferenceTheme">
+        <item name="android:windowBackground">@color/colorWhite</item>
+    </style>
+
+    <style name="BlackTheme.BackgroundLayout">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="BlackTheme.Layout">
+        <item name="android:background">@color/colorTransparent</item>
+    </style>
+
+    <style name="BlackTheme.CommonToolBarBackground" parent="AppTheme.AppBarOverlay">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:alpha">10</item>
+    </style>
+
+    <style name="BlackTheme.KanjiTestRadioButton">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_15</item>
+        <item name="android:textColor">@color/colorBlackWhite</item>
+        <item name="android:checkable">true</item>
+    </style>
+
+    <style name="BlackTheme.CommonKanjiDetailInfo">
+        <item name="android:textSize">@dimen/text_size_15</item>
+        <item name="android:textColor">@color/colorBlackWhite</item>
+        <item name="android:background">@color/colorTransparent</item>
+    </style>
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/default_test_action"
+        android:title="@string/default_test_action_context_menu_title"/>
+    <item
+        android:id="@+id/random_test_action"
+        android:title="@string/random_test_action_context_menu_title"/>
+</menu>

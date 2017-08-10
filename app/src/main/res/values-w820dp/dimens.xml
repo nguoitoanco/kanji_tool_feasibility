@@ -1,0 +1,35 @@
+<resources>
+    <dimen name="margin_5">10dp</dimen>
+    <dimen name="margin_1">2dp</dimen>
+    <dimen name="margin_0_5">1dp</dimen>
+    <dimen name="margin_2">4dp</dimen>
+    <dimen name="margin_10">20dp</dimen>
+    <dimen name="margin_20">40dp</dimen>
+    <dimen name="margin_80">160dp</dimen>
+
+    <dimen name="padding_2">4dp</dimen>
+    <dimen name="padding_5">10dp</dimen>
+    <dimen name="padding_10">20dp</dimen>
+    <dimen name="padding_20">40dp</dimen>
+    <dimen name="padding_50">100dp</dimen>
+
+    <dimen name="text_size_10">20sp</dimen>
+    <dimen name="text_size_12">24sp</dimen>
+    <dimen name="text_size_15">30sp</dimen>
+    <dimen name="text_size_18">36sp</dimen>
+    <dimen name="text_size_20">40sp</dimen>
+    <dimen name="text_size_25">50sp</dimen>
+    <dimen name="text_size_30">60sp</dimen>
+    <dimen name="text_size_40">80sp</dimen>
+    <dimen name="text_size_50">100sp</dimen>
+    <dimen name="text_size_100">200sp</dimen>
+    <dimen name="text_size_150">300sp</dimen>
+    <dimen name="text_size_200">400sp</dimen>
+
+    <dimen name="text_dimension_0_5">1dp</dimen>
+    <dimen name="text_dimension_25">40dp</dimen>
+    <dimen name="text_dimension_30">60dp</dimen>
+    <dimen name="text_dimension_70">140dp</dimen>
+    <dimen name="text_dimension_40">80dp</dimen>
+    <dimen name="text_dimension_50">100dp</dimen>
+</resources>

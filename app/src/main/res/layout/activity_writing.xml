@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="muscular.man.tools.kanjinvk.activity.WritingActivity"
+    android:background="@color/colorBabyBlueEyes">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/kanji_writing_appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/kanji_writing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextColor="@color/colorWhite"
+            app:theme="@style/BlackTheme.CommonToolBarBackground">
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/kanji_writing_template_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorTransparent"
+        android:visibility="gone">
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/kanji_writing_practice_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@color/colorTransparent"
+        android:visibility="gone">
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/kanji_stroke_number_card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_2"
+        android:layout_below="@+id/kanji_writing_appbar">
+        <com.nvk.customview.CustomNvkTextView
+            android:id="@+id/kanji_stroke_number_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_150"
+            app:customFont="font/KanjiStrokeOrders.ttf"
+            android:gravity="center"
+            android:includeFontPadding="false"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/kanji_path_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/BlackTheme.Layout"
+        android:layout_margin="@dimen/margin_2"
+        android:layout_toRightOf="@+id/kanji_stroke_number_card_view"
+        android:layout_below="@+id/kanji_writing_appbar">
+        <com.nvk.customview.PathView
+            android:id="@+id/path_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            app:fillColor="@color/colorAccent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/kanji_stroke_number_view"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/kanji_writing_template_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_2"
+        android:layout_below="@+id/kanji_stroke_number_card_view">
+        <TextView
+            android:id="@+id/kanji_template_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size_100"
+            android:textColor="@color/colorSkyRain"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"/>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/kanji_writing_practice_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_2"
+        android:layout_below="@+id/kanji_stroke_number_card_view"
+        android:layout_toRightOf="@+id/kanji_writing_template_card_view">
+        <TextView
+            android:id="@+id/kanji_practice_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size_100"
+            android:textColor="@color/colorSkyRain"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"/>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"/>
+    </android.support.v7.widget.CardView>
+
+    <HorizontalScrollView
+        android:id="@+id/writing_footer_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scrollbars="none">
+        <LinearLayout
+            android:id="@+id/kanji_footer_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:theme="@style/BlackTheme.Layout">
+            <ImageView
+                android:id="@+id/pen_size"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:src="@mipmap/ic_format_size_white_36dp"
+                style="@style/BlackTheme.BrushTool"/>
+
+            <ImageView
+                android:id="@+id/color_picker"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:src="@mipmap/ic_format_color_fill_white_36dp"
+                style="@style/BlackTheme.BrushTool"/>
+
+            <ImageView
+                android:id="@+id/clear_all"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:src="@mipmap/ic_clear_white_36dp"
+                style="@style/BlackTheme.BrushTool"/>
+
+            <ImageView
+                android:id="@+id/undo_text_view"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:src="@mipmap/ic_arrow_back_white_36dp"
+                style="@style/BlackTheme.BrushTool"/>
+            <ImageView
+                android:id="@+id/redo_text_view"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:src="@mipmap/ic_arrow_forward_white_36dp"
+                style="@style/BlackTheme.BrushTool"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:id="@+id/writing_exercise_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/kanji_stroke_number_card_view"
+        android:layout_above="@+id/writing_footer_scroll_view"
+        android:background="@color/colorTransparent">
+        <com.nvk.customview.DrawingView
+            android:id="@+id/writing_exercise_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorTransparent">
+        </com.nvk.customview.DrawingView>
+    </RelativeLayout>
+</RelativeLayout>

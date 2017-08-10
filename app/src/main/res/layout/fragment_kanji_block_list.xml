@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="muscular.man.tools.kanjinvk.fragment.KanjiBlockListFragment">
+
+    <muscular.man.tools.kanjinvk.view.ContextMenuRecyclerView
+        android:id="@+id/kanji_test_list_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </muscular.man.tools.kanjinvk.view.ContextMenuRecyclerView>
+    <include layout="@layout/loading_process"/>
+
+</FrameLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="JLPT Kanji">
+        <menu>
+            <item
+                android:id="@+id/nav_jlpt_kanji_n5"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="@string/jlpt_n5_text" />
+            <item
+                android:id="@+id/nav_jlpt_kanji_n4"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="@string/jlpt_n4_text"/>
+            <item
+                android:id="@+id/nav_jlpt_kanji_n3"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="@string/jlpt_n3_text"/>
+            <item
+                android:id="@+id/nav_jlpt_kanji_n2"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="@string/jlpt_n2_text"/>
+            <item
+                android:id="@+id/nav_jlpt_kanji_n1"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="@string/jlpt_n1_text"/>
+            <item
+                android:id="@+id/nav_jlpt_kanji_test"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="@string/kanji_test_text"/>
+        </menu>
+    </item>
+
+    <item android:title="Other">
+        <menu>
+            <!--<item-->
+                <!--android:id="@+id/nav_app_setting"-->
+                <!--android:icon="@android:drawable/ic_menu_share"-->
+                <!--android:title="@string/action_settings" />-->
+            <item
+                android:id="@+id/nav_app_about"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="@string/about_tab_title"/>
+        </menu>
+    </item>
+
+    <!--<group android:checkableBehavior="single">-->
+        <!--<item-->
+            <!--android:id="@+id/nav_camara"-->
+            <!--android:icon="@android:drawable/ic_menu_camera"-->
+            <!--android:title="Import"/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_gallery"-->
+            <!--android:icon="@android:drawable/ic_menu_gallery"-->
+            <!--android:title="Gallery"/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_slideshow"-->
+            <!--android:icon="@android:drawable/ic_menu_slideshow"-->
+            <!--android:title="Slideshow"/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_manage"-->
+            <!--android:icon="@android:drawable/ic_menu_manage"-->
+            <!--android:title="Tools"/>-->
+    <!--</group>-->
+
+</menu>

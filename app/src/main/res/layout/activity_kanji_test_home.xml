@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.KanjiTestHomeActivity">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/kanji_test_home_app_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/kanji_test_home_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextColor="@color/colorWhite"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:theme="@style/BlackTheme.CommonToolBarBackground"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/kanji_test_home_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_marginBottom="?attr/actionBarSize"/>
+
+    <RelativeLayout
+        android:id="@+id/kanji_test_home_app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/kanji_test_home_footer_app_bar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true">
+            <android.support.design.widget.TabLayout
+                android:id="@+id/kanji_test_home_tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:tabMode="fixed"
+                app:tabGravity="fill"
+                app:tabPaddingStart="0dp"
+                app:tabPaddingEnd="0dp"
+                app:theme="@style/BlackTheme.CommonToolBarBackground"
+                app:layout_scrollFlags="scroll|enterAlways"/>
+        </android.support.design.widget.AppBarLayout>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout >

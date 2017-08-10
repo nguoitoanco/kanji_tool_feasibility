@@ -1,0 +1,60 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ScrollView01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    android:paddingBottom="?attr/actionBarSize"
+    android:background="@color/colorBabyBlueEyes">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".fragment.AboutFragment"
+        android:paddingBottom="?attr/actionBarSize">
+        <RelativeLayout
+            android:id="@+id/about_app_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/padding_10"
+            android:paddingRight="@dimen/padding_10">
+            <LinearLayout
+                android:id="@+id/app_info_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:id="@+id/about_app_icon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/ic_launcher"/>
+
+                <TextView
+                    android:id="@+id/about_app_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_about_information"
+                    android:textColor="@color/colorBlackWhite"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/about_app_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_about_content"
+                android:textColor="@color/colorBlackWhite"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_below="@+id/app_info_layout"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:text="Copyright vankhanhbk88@gmail.com"
+            android:textSize="@dimen/text_size_15"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:layout_marginBottom="?attr/actionBarSize"
+            android:layout_below="@+id/about_app_layout"/>
+    </RelativeLayout>
+</ScrollView>

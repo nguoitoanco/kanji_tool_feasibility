@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:id="@+id/all_animation"
+    tools:context="muscular.man.tools.kanjinvk.fragment.DropDownAnimationFragment">
+
+    <RelativeLayout
+        android:id="@+id/main_anim"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/jlpt_n5_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jlpt_n5_text"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/jlpt_n4_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jlpt_n4_text"
+            android:layout_below="@+id/jlpt_n5_option"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/jlpt_n3_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jlpt_n3_text"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:layout_below="@+id/jlpt_n4_option"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/jlpt_n2_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jlpt_n3_text"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:layout_below="@+id/jlpt_n3_option"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/jlpt_n1_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jlpt_n2_text"
+            android:layout_below="@+id/jlpt_n2_option"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/redundant"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="#80000000"/>
+
+</LinearLayout>

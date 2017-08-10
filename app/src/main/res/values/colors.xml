@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="colorWhiteTransparent">#33FFFFFF</color>
+    <color name="colorWhiteTransparentAlpha">#CCFF0000</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorSuperBlack">#000000</color>
+    <!--<color name="colorBlack">#222222</color>-->
+    <color name="colorBlackWhite">#333333</color>
+    <color name="colorBackgroundWhite">#EBEBEB</color>
+    <!--<color name="colorBlackLight">#474B4F</color>-->
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorOpalescent">#eeeeee</color>
+
+    <color name="colorGreen">#6BD565</color>
+    <color name="colorAndroidGreen">#A4C639</color>
+    <color name="colorCeladon">#ACE1AF</color>
+    <color name="colorAppleGreen">#8DB600</color>
+    <color name="colorAsparagus">#87A96B</color>
+    <color name="colorAquamarine">#7FFFD4</color>
+    <color name="colorEmerald">#50C878</color>
+    <color name="colorInchworm">#B2EC5D</color>
+
+    <color name="colorBabyBlue">#89CFF0</color>
+    <color name="colorBabyBlueEyes">#A3C6D0</color>
+    <color name="colorBabyBlueEyesWhite">#CFD8DC</color>
+    <color name="colorAzure">#007FFF</color>
+    <color name="colorCerulean">#007BA7</color>
+
+    <color name="colorAlizarin">#E32636</color>
+    <color name="colorBlush">#DE5D83</color>
+    <color name="colorCherry">#DE3163</color>
+    <color name="colorChestnut">#CD5C5C</color>
+
+    <color name="colorCherryBlossomPink">#FFB7C5</color>
+    <color name="colorApricot">#FBCEB1</color>
+    <color name="colorBabyPink">#F4C2C2</color>
+    <color name="colorAtomicTangerine">#FF9966</color>
+    <color name="colorOrange">#FF7F00</color>
+
+    <color name="colorArylideYellow">#E9D66B</color>
+    <color name="colorBananaYellow">#FFD12A</color>
+    <color name="colorAmber">#F0B526</color>
+
+    <color name="colorPlaceHolder">#cdcdcd</color>
+    <color name="colorChamoisee">#A0785A</color>
+    <color name="colorChampagne">#F7E7CE</color>
+    <color name="colorCopper">#B87333</color>
+    <color name="colorOchre">#CC7722</color>
+
+    <color name="colorDivider">#cdcdcd</color>
+    <color name="colorSkyRain">#E5E5E5</color>
+    <color name="colorLavender">#B57EDC</color>
+    <color name="colorLavenderBlue">#CCCCFF</color>
+</resources>

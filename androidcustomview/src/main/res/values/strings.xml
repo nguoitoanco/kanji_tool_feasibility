@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidCustomview</string>
+    <string name="seek_bar_ok_button_text">OK</string>
+    <string name="seek_bar_no_button_text">NO</string>
+</resources>
